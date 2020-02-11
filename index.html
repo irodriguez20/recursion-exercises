@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>recurrsion practice</title>
+    <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+  </head>
+  <body>
+    <script>
+      //   function sheepCounter(number) {
+      //     if (number === 0) {
+      //       console.log("All sheep jumped over the fence");
+      //       return;
+      //     }
+
+      //     console.log(number, ": Another sheep jumps over the fence");
+      //     var newNumber = number - 1;
+      //     sheepCounter(newNumber);
+      //   }
+
+      //   sheepCounter(3);
+
+      // console.log(powerCalculator(10, 3)) 10 ^ 3
+
+      // powerCalculator(int, exp - 1)
+      // return 10 * powerCalculator(10, 2) 10 * (10 ^ 2)
+
+      // powerCalculator(int, exp - 1)
+      // return 10 * 10 * powerCalculator(10, 1) 10 * 10 * (10 ^ 1)
+
+      // return 10 * 10 * 10 * 10 * powerCalculator(10, 0) 10 * 10 * 10 * (10 ^ 0)
+
+      //   function powerCalculator(int, exp) {
+      //     if (exp < 0) {
+      //       return "exponent should be >= 0";
+      //     }
+      //     if (exp === 0) {
+      //       return 1;
+      //     }
+
+      //     var newExp = exp - 1;
+      //     return int * powerCalculator(int, newExp);
+      //   }
+
+      //   console.log(powerCalculator(5, 0));
+
+      //Reverse String olleh
+
+      //   function reverseString(text) {
+      //     if (text.length === 0) {
+      //       return "";
+      //     }
+
+      //     var lastChar = text[text.length - 1];
+
+      //     return lastChar + reverseString(text.slice(0, -1));
+      //   }
+      //   console.log(reverseString("Hello"));
+
+      //nth Triangle
+
+      //   function nthTriangle(n) {
+      //     if (n <= 1) {
+      //       return n;
+      //     }
+
+      //     // T = (n)(n + 1)/2
+      //     return n + nthTriangle(n - 1);
+      //   }
+
+      //   console.log(nthTriangle(3));
+
+      //split string
+      //start a new string at '/'
+
+      /* function stringSplitter(str) {
+        if (str.length - 1 === "0") {
+          return "";
+        }
+
+        var strArray = [];
+        for (let i = 0; i < str.length; i++) {
+          if (i === "/") {
+            return "";
+          }
+          strArray.push(i);
+        }
+        return strArray.join(stringSplitter(str));
+      }
+
+      console.log(stringSplitter("02/20/2020"));
+      */
+
+      //fibonacci sequence
+
+      /*  function fibonacci(n) {
+        if (n <= 1) {
+          return 1;
+        }
+
+        return fibonacci(n - 1) + fibonacci(n - 2);
+      }
+      console.log(fibonacci(8));
+      */
+
+      //Factorial
+
+      /*  function factorial(fa) {
+        if (fa == 0) {
+          return 1;
+        }
+
+        return fa * factorial(fa - 1);
+      }
+      console.log(factorial(5));
+      */
+
+      //Anagrams
+
+      function Anagrams(){
+          if(/*find a repetion of words beginning with e*/){
+               console.log('');
+          }
+
+
+          console.log(Anagrams());
+      }
+      Anagrams('east');
+    </script>
+  </body>
+</html>
